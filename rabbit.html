@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<!-- head：ページ全体の付加情報を記述する場所 -->
+<head>
+    <!-- charset:ファイルの文字コード -->
+    <meta charset="UTF-8">
+
+    <!-- viewport:描画範囲の設定、レスポンシブデザインのために必要な設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- name="author"ページ作成者を指定する -->
+    <meta name="author" content="Ren Endo">
+
+    <!-- name="keywords":ページ内容を表すキーワード（3～5つくらい） -->
+    <meta name="keywords" content="html ,css,rabbit,うさぎ,サファイア">
+
+<!-- title：ページタイトル（ブラウザのタブ名として使用） -->
+    <title>課題2｜大学生のための情報・デジタルリテラシー </title>
+</head>
+
+<body>
+    <header id="top">
+        <!-- h1-6:見出し、章・節・項のような文章構造に合わせた見出し -->
+        <h1>【課題】大学生のための情報・デジタルリテラシー</h1>
+        <nav>
+            ホーム
+            タグリファレンス
+            問い合わせ
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>うさぎの画像</h2>
+            <h3>自宅で飼育しているうさぎです！</h3>
+
+            <dl>
+                <dt>飼育しているうさぎについて</dt>
+                <dd>名前は「サファイア」です。妹が名付けました。</dd>
+                <dd>中学2年生の頃から飼育しています。今年で7年目になりますが、まだまだ元気です。</dd>
+            </dl>
+
+            <form action="rabbit.html" method="post">
+                <div>
+                    <label for="remarks">問い合わせ内容:</label>
+                    <textarea name="remarks" id="remarks" cols="30" rows="10" accesskey="r" tabindex="1">問い合わせ内容</textarea>
+                </div>
+                <div>
+                    <input type="submit" value="送信">
+                    <input type="reset" value="リセット">
+                </div>
+            </form>
+            
+            <img src="rabbit.img/DSCF0936.JPG" alt="うさぎ1の画像" width="400" height="300">
+            <img src="rabbit.img/DSCF1091.JPG" alt="うさぎ2の画像" width="400" height="300">
+            <img src="rabbit.img/IMG_4043.jpeg" alt="うさぎ3の画像" width="400" height="300">
+
+            
+        </section>
+
+
+        <p><a href="#top">トップに戻る</a></p>
+
+    </main>
+
+    <footer>
+        Copyright &copy; Ren Endo, All Rights Reserved.
+    </footer>
+    
+</body>
+</html>

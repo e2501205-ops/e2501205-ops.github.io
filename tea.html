@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<!-- head：ページ全体の付加情報を記述する場所 -->
+<head>
+    <!-- charset:ファイルの文字コード -->
+    <meta charset="UTF-8">
+
+    <!-- viewport:描画範囲の設定、レスポンシブデザインのために必要な設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- name="author"ページ作成者を指定する -->
+    <meta name="author" content="Ren Endo">
+
+    <!-- name="keywords":ページ内容を表すキーワード（3～5つくらい） -->
+    <meta name="keywords" content="html ,css,">
+
+<!-- title：ページタイトル（ブラウザのタブ名として使用） -->
+    <title>課題2｜大学生のための情報・デジタルリテラシー </title>
+</head>
+
+<body>
+    <header id="top">
+        <!-- h1-6:見出し、章・節・項のような文章構造に合わせた見出し -->
+        <h1>【課題】大学生のための情報・デジタルリテラシー</h1>
+        <nav>
+            ホーム
+            タグリファレンス
+            問い合わせ
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>紅茶の画像</h2>
+            <h3>紅茶の画像です！</h3>
+
+            <dl>
+                <dt>紅茶と私</dt>
+                <dd>好きな飲み物の一つが紅茶です。中学生の頃から飲み続けています。</dd>
+                <dd>カフェインの取り過ぎが気になるため、最近は飲む頻度を抑えています。</dd>
+            </dl>
+
+            <form action="tea.html" method="post">
+                <div>
+                    <label for="remarks">問い合わせ内容:</label>
+                    <textarea name="remarks" id="remarks" cols="30" rows="10" accesskey="r" tabindex="1">問い合わせ内容</textarea>
+                </div>
+                <div>
+                    <input type="submit" value="送信">
+                    <input type="reset" value="リセット">
+                </div>
+            </form>
+
+            <img src="tea.img/tea1.webp" alt="紅茶1の画像" width="400" height="300">
+            <img src="tea.img/tea2.webp" alt="紅茶2の画像" width="400" height="300">
+            <img src="tea.img/tea3.webp" alt="紅茶3の画像" width="400" height="300">
+
+        </section>
+
+
+        <p><a href="#top">トップに戻る</a></p>
+
+    </main>
+
+    <footer>
+        Copyright &copy; Ren Endo, All Rights Reserved.
+    </footer>
+    
+</body>
+</html>
